@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+body {
+    background-color: rgb(223, 223, 223);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.canlandir {
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.canlandir:hover {
+    color: rgb(231, 226, 226);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo {
+    max-width: 60px;
+    max-height: 60px;
+    box-shadow: 0px 0px 10px 0px rgba(43, 43, 43, 0.75);
 }
 
-.App-link {
-  color: #61dafb;
+.ethereum {
+    animation: spin 7s linear infinite;
+    border-radius: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.nav-link:focus,
+.nav-link:active {
+    color: inherit;
+    /* Aktif veya odaklanılmış linklerin rengini korur */
+    background-color: transparent;
+    /* Arka plan rengini değiştirmez */
+    text-decoration: none;
+    /* Altı çizili metni kaldırır */
+}
+
+.modal-dialog-centered {
+    max-width: 75% !important;
+}
+
+
+
+@keyframes spin {
+    0% {
+        /* box-shadow: 0px 0px 0px 0px rgba(43, 43, 43, 0.75); */
+
+        transform: scale(0.5);
+
+    }
+
+    10% {
+        /* box-shadow: 0px 0px 0px 0px rgba(43, 43, 43, 0.75); */
+        transform: scale(0.6);
+
+    }
+
+    20% {
+        /* box-shadow: 0px 0px 20px 0px rgba(43, 43, 43, 0.75); */
+        transform: scale(0.7);
+        /* transform: rotate(72deg); */
+    }
+
+    30% {
+        /* box-shadow: 0px 0px 20px 0px rgba(43, 43, 43, 0.75); */
+        transform: scale(0.8);
+        /* transform: rotate(144deg); */
+    }
+
+    40% {
+        /* box-shadow: 0px 0px 0px 0px rgba(43, 43, 43, 0.75); */
+        transform: scale(0.9);
+
+
+    }
+
+    50% {
+        /* box-shadow: 0px 0px 20px 0px rgba(43, 43, 43, 0.75); */
+        transform: scale(1);
+        /* transform: rotate(180deg); */
+        transform: rotate(10deg);
+    }
+
+    65% {
+        box-shadow: 0px 0px 100px 100px rgba(247, 247, 247, 0.75);
+
+
+        transform: rotate(180);
+    }
+
+    80% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: scale(0.5);
+    }
+
+
 }

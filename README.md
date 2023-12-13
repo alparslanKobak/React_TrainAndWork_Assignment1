@@ -1,3 +1,16 @@
+
+
+# KT Coin Tree
+Invest together :)
+
+## Crypto Coin Investment Application
+You can easily follow your favorite coin and invest! 
+
+
+
+
+
+------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
