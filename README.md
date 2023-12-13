@@ -7,6 +7,8 @@ Invest together :)
 You can easily follow your favorite coin and invest! 
 
 
+!["KuveytTürkCoinInvestment"](/src/images/KTCOIN.png)
+
 
 
 
